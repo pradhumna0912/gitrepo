@@ -1,0 +1,55 @@
+/* style.css — basic styling for your webpage */
+
+/* Page background and default font */
+body {
+  background-color: #6d451d97;
+  font-family: Arial, sans-serif;
+  margin: 0;  /* No default margin */
+  padding: 20px; /* Some spacing */
+}
+
+/* Heading styles (h1, h2) */
+h1, h2 {
+  color: #333;
+  text-align: center;
+}
+
+/* Paragraphs */
+p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Simple button look */
+button {
+  background: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+  background: #45a049;
+}
+
+/* Navigation links */
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
